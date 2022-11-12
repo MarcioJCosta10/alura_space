@@ -22,4 +22,6 @@ TIME_ZONE = 'America/Sao_Paulo'
 
 ### Criar o app galeria
 >>> python manage.py startapp galeria
+### registrar esse app em settings.py
+
 
