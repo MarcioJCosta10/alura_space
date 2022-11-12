@@ -14,3 +14,5 @@ LANGUAGE_CODE = 'pt-BR'
 
 TIME_ZONE = 'America/Sao_Paulo'
 ```
+# Configure python-dotenv
+>>> pip install python-dotenv
