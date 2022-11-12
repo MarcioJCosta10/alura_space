@@ -17,4 +17,8 @@ TIME_ZONE = 'America/Sao_Paulo'
 # Configure python-dotenv
 >>> pip install python-dotenv
 ### Criar new file .env
+### Criar .gitignore
+>>> https://www.toptal.com/developers/gitignore/ --> site para criar gitignore
+
+
 
