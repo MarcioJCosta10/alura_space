@@ -20,5 +20,6 @@ TIME_ZONE = 'America/Sao_Paulo'
 ### Criar .gitignore
 >>> https://www.toptal.com/developers/gitignore/ --> site para criar gitignore
 
-
+### Criar o app galeria
+>>> python manage.py startapp galeria
 
