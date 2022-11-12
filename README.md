@@ -16,3 +16,5 @@ TIME_ZONE = 'America/Sao_Paulo'
 ```
 # Configure python-dotenv
 >>> pip install python-dotenv
+### Criar new file .env
+
