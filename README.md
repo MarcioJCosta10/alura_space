@@ -24,4 +24,7 @@ TIME_ZONE = 'America/Sao_Paulo'
 >>> python manage.py startapp galeria
 ### registrar esse app em settings.py
 
+### isolar as urls 
+# criar o arquivo urls.py em galeria
+
 
