@@ -26,5 +26,27 @@ TIME_ZONE = 'America/Sao_Paulo'
 
 ### isolar as urls 
 # criar o arquivo urls.py em galeria
+```py
+from django.urls import path
+from galeria.views import index
+
+urlpatterns = [
+    path('',index)
+]
+```
+# configurar urls.py de setup
+```python
+from django.contrib import admin
+from django.urls import path
+from django.urls import include
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('galeria.urls')),
+]
+
+```
+
 
 
