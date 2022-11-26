@@ -47,6 +47,13 @@ urlpatterns = [
 ]
 
 ```
-
+### configurar templates
+# em settings.py configurar DIR templates
+```py
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
+```
 
 
