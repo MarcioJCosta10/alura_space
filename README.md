@@ -74,4 +74,7 @@ STATIC_ROOT = os.path.join((BASE_DIR,'static'))
 ## ex: href="{% static '/styles/style.css' %}">
 
 
+### renderizar as outras paginas
+# criar templates/galeria/imagem.html
+ 
 
