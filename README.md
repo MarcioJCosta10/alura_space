@@ -62,3 +62,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'setup/static')]
 STATIC_ROOT = os.path.join((BASE_DIR,'static'))
 ```
+## criar dentro de setup a pasta static 
+## adicionar os arquivos staticos assets e styles
+
+>>> python manage.py collectstatic
