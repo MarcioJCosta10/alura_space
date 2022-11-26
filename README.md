@@ -76,5 +76,12 @@ STATIC_ROOT = os.path.join((BASE_DIR,'static'))
 
 ### renderizar as outras paginas
 # criar templates/galeria/imagem.html
- 
+ {% load static %}
+# configurar todas as src 
+href="{% static '/styles/style.css'  %}">
+
+# configurar a navegação entre paginas
+# em galeria/urls.py
+Colocar o namespace para a rota imagem/
+
 
