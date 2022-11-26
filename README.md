@@ -83,5 +83,7 @@ href="{% static '/styles/style.css'  %}">
 # configurar a navegação entre paginas
 # em galeria/urls.py
 Colocar o namespace para a rota imagem/
+### como quero navegar para outra página passo dentro do jinja a variável url
+  <a href="{% url 'imagem' %}">
 
 
